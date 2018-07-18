@@ -50,4 +50,6 @@ DSImageFilterHelper.shared.createFilteredImages(filters: Filter.allValues, image
 
 
 
+## License
 
+DSImageFilterHelper is released under the MIT license. [See LICENSE](https://github.com/BluePick/DSImageFilterHelper/blob/master/LICENSE) for details.

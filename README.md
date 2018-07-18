@@ -40,6 +40,7 @@ DSImageFilterHelper.shared.createFilteredImages(filters: [.normal, .chrome], ima
 DSImageFilterHelper.shared.resizeImage(image: #imageLiteral(resourceName: "Barbie.jpg"), resizedSize: CGSize(width: 60, height: 60))
 ```
 
+#### Generate all filters image
 ```
 DSImageFilterHelper.shared.createFilteredImages(filters: Filter.allValues, image: DSImageFilterHelper.shared.resizeImage(image: #imageLiteral(resourceName: "Barbie.jpg"), resizedSize: CGSize(width: 60, height: 60)) ) { (imgSet) in
             self.imageFilterSet = imgSet

@@ -19,7 +19,7 @@ Easy solution for filter images and best fit for custom filter control for photo
 | Tone | CILinearToSRGBToneCurve |
 | Linear | CISRGBToneCurveToLinear |
 
-### USE
+### Usage
 #### Filter image
 ```
 var imageFilterSet: [ImageFilter]?

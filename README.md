@@ -5,6 +5,21 @@ Easy solution for filter images and best fit for custom filter control for photo
 ### USE
 ![](https://github.com/BluePick/DSImageFilterHelper/blob/master/filters.gif)
 
+
+| Name |  Filter |
+| ------ | ------ | 
+| Normal | No Filter |
+| Chrome | CIPhotoEffectChrome |
+| Fade | CIPhotoEffectFade |
+| Instant | CIPhotoEffectInstant |
+| Mono | CIPhotoEffectMono |
+| Noir | CIPhotoEffectNoir |
+| Process | CIPhotoEffectProcess |
+| Tonal | CIPhotoEffectTonal |
+| Transfer | CIPhotoEffectTransfer |
+| Tone | CILinearToSRGBToneCurve |
+| Linear | CISRGBToneCurveToLinear |
+
 #### Filter image
 ```
 var imageFilterSet: [ImageFilter]?
@@ -31,4 +46,7 @@ DSImageFilterHelper.shared.createFilteredImages(filters: Filter.allValues, image
             // COLLECTION VIEW RELOAD
         }
 ```
+
+
+
 

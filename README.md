@@ -2,7 +2,6 @@
 Easy solution for filter images and best fit for custom filter control for photo &amp; video
 
 
-### USE
 ![](https://github.com/BluePick/DSImageFilterHelper/blob/master/filters.gif)
 
 
@@ -20,6 +19,7 @@ Easy solution for filter images and best fit for custom filter control for photo
 | Tone | CILinearToSRGBToneCurve |
 | Linear | CISRGBToneCurveToLinear |
 
+### USE
 #### Filter image
 ```
 var imageFilterSet: [ImageFilter]?
